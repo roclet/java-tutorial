@@ -38,4 +38,8 @@ public class ProductService {
        repository.deleteById(app_id);
        return "product removed || " + app_id;
     }
+
+    public  int getName() {
+        return 1+ 2;
+    }
 }
